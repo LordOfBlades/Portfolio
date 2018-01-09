@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>HTML 4 Test Lesson</title>
+     <script type="text/javascript">
+        function substitute() {
+          var myValue = document.getElementById('myTextBox').value;
+
+          if (myValue.length == 0) {
+             alert('Empty Text Box');
+             return;
+          }
+          var myTitle = document.getElementById('title');
+          myTitle.innerHTML = myValue;
+        }
+     </script>
+</head>
+<body>
+     <h1 id="title">HTML2 Test Lesson</h1>
+     <input type="text" id="myTextBox"/>
+     <input type="submit" value="Click Me" onclick="substitute()" />
+</body>
+</html>
