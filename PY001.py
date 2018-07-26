@@ -7,7 +7,10 @@ name    = "John"       # A string
 print counter
 print miles
 print name
-/* ---------------------------- */
+/* ----------------------------------------------------------------------- 
+This code is intended to familiarize in data types and variables on python
+it is not much
+-------------------------------------------------------------------------*/
 
 str = 'Hello World!'
 
