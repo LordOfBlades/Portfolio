@@ -7,11 +7,12 @@
 <head>
     <!-- Enter metadata elements -->
 	<title > 
-	Basic HTML Template 	
+	Basic HTML
 	</title>	
 </head>
 
 <body>
+     Added change in HTML for commit example
     <!-- Enter page contents -->	 
 </body>
 </html>
