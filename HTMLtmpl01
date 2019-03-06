@@ -1,0 +1,17 @@
+<!-- Basic HTML template
+   YYYY MM DD : Basic structure of a HTML                
+ -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Enter metadata elements -->
+	<title > 
+	Basic HTML Template 	
+	</title>	
+</head>
+
+<body>
+    <!-- Enter page contents -->	 
+</body>
+</html>
