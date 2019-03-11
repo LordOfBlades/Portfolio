@@ -1,0 +1,138 @@
+<!-- Description  
+2019 03 11 : 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+
+ <!-- import font from link  -->
+		 <!--		 
+		 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">		 
+		 -->
+ <!-- Style element -->		 
+ <style>
+         <!-- Style element1  -->
+         #svgelem {
+            position: relative;
+            left: 10%;
+            -webkit-transform: translateX(-20%);
+            -ms-transform: translateX(-20%);
+            transform: translateX(-20%);
+         }
+		 <!-- Style element2  -->
+		 #svgelem2 {
+            position: relative;
+            right: 10%;
+            -webkit-transform: translateX(-30%);
+            -ms-transform: translateX(-30%);
+            transform: translateX(-30%);
+         }
+		 
+		 #svgelem3 {
+            position: center;                
+			right: 10%;
+            -webkit-transform: translateX(50%);
+            -ms-transform: translateX(50%);
+            transform: translateX(50%);
+         }
+		 <!-- assign style elements using class="red-text"  -->
+		 .red-text {
+            color: red;
+         }
+		 <!-- assign style elements to <p> tag  -->
+         p {
+		 font-size: 30px;
+		 font-family: monospace;
+		 }
+		 <!-- to degrade to another font 
+		 p {
+		 font-size: 30px;
+		 font-family: monospace, arial;
+		 }
+		 -->
+		 <!-- css element size 			
+         .smaller-image {
+         width: 100px;
+         }
+		 -->
+		 .thin-red-border {
+         border-color: red;
+         border-width: 5px;
+         border-style: solid;
+         }
+		 
+ </style>
+      <title>Test HTML 4</title>
+      <meta charset = "utf-8" />
+</head>
+
+  <body>
+      <h2 align = "center" title="test title">HTML5 SVG Circle test</h2>
+	  <!-- graph display elements  -->
+      <svg id = "svgelem" height = "100" >
+         <circle id = "redcircle" cx = "50" cy = "50" r = "50" fill = "blue" />
+      </svg>
+	  
+	  <svg id = "svgelem2" height = "100" >
+          <rect id = "redrect" width = "300" height = "100" fill = "red" />
+      </svg>
+	  
+<h2 class="red-text">BunnehPhotoApp</h2>
+
+<main>
+
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+  
+  <a href="#"><img src="\\Bunneh.png" alt="A cute bunneh."></a>
+  
+  <div>
+
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+
+    </ul>
+
+    <p>Top 3 things cats hate:</p>
+
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+
+  </div>
+
+  <form action="/submit-cat-photo">
+
+    <label>
+    <input type="radio" name="indoor-outdoor" checked> Indoor
+    </label>
+    
+    <label>
+    <input type="radio" name="indoor-outdoor"> Outdoor
+    </label><br>
+
+    <label>
+    <input type="checkbox" name="personality" checked> Loving
+    </label>
+
+    <label>
+    <input type="checkbox" name="personality"> Lazy
+    </label>
+
+    <label>
+    <input type="checkbox" name="personality"> Energetic
+    </label><br>
+
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+
+  </form>
+
+  </main>
+  </body>
+</html> 
