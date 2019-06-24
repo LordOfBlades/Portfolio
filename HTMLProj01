@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<main id="main">  
+    <style>
+        body {
+		 background-color: black;
+		 color: white;
+		}
+
+        .title {
+         font-size: 10px;
+     	 text-align: center;
+        }
+
+		#img-div{
+		 display: grid;		
+		 height: 500px;
+		 grid-template-columns: 33% 34% 33%;		 
+		 grid-template-rows: 98% 2%;		          		 
+		 border-width: 2px;
+		 border-style: solid;
+		 border-color: blue;		 
+		} 	
+		
+        .skyLeft {         		 		         
+		 max-width: 100%;		 
+		 max-height: 100%;
+		}
+		
+        .Jedi {		 		 
+		 max-width: 100%;		 
+		 max-height: 100%;
+        }		
+				
+        .skyRight {		         
+		 max-width: 100%;		 
+		 max-height: 100%;
+        }
+		
+        .tributeTitle {
+         font-size: 20px;
+     	 text-align: center;   
+		}
+		
+        #img-caption{
+		font-size: 20px;
+		grid-area: 2/2/2/2;
+		}        	
+		
+		.tributeTextHdr {
+		 border-width: 2px;
+		 border-style: solid;
+		 border-color: green;		
+		 font-size: 20px;
+		 font-family: arial;
+		 text-align: center;
+		 font-weight: bold;
+		 color: black;
+		 background-color: yellow !important;
+		}
+		
+        .tributeTextContent1{		 
+		 font-size: 15px;
+		 font-family: arial;
+		 text-align: center;
+		 color: lightblue;
+		 line-height: 20px;
+        }
+		
+		footer {
+		 border-width: 2px;
+		 border-style: solid;
+		 border-color: green;		
+		 font-size: 20px;
+		 font-family: arial;
+		 text-align: left;
+		 font-weight: bold;
+		 color: black;
+		 background-color: yellow !important;
+		}
+		
+    </style>
+
+    <h1 class="tributeTitle" id="title">Dreams during the day, a lesson in basic HTML design</h1>
+	<br>		   
+	<div class="imageGrp" id="img-div"> 
+         <img class="skyLeft"  id="imageLeft" src="images\SkyLeft.jpg"> 
+		 <img class="Jedi"     id="image"     src="images\Jedi.jpg"> 
+		 <img class="skyRight" id="imageRight" src="images\SkyRight.jpg"> 
+		 <div id="filler">  </div> 		 
+         <div id="img-caption"> <strong>Here is where all secrets lie </strong></div> 		 
+		 <div id="filler">  </div> 		 
+	</div>		 
+    <br>
+	<div class="caption" id="caption"> This is an entry for "My Tribute Proj" with samples on form inputs</div>   
+	<br>
+	Just a Sample for Input type text using form
+	<form action="">
+	   <input type="text" placeholder="Enter text"></input>
+	</form>
+	<br>
+	<div id="tribute-info">
+	    
+	  <h1 class="tributeTextHdr" > Honeyworks summer session </h1>
+      <p class="tributeTextContent1">
+	  <br> Insert text here
+      </p>
+	  <a id="tribute-link href="https://www.linkedin.com/in/eligio-mervin-tejada-08863724/" target="_blank" class="links">Mervin LinkedIn profile</a>
+      <hr>   
+      <div class="footerPage" id="endOfPage" >
+	   End		
+	  </div>
+      <br>
+	  <a href="#image"> Go to TOP	</a>
+    </div>	
+</main>
+</html> 
